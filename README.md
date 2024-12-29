@@ -1,1 +1,5 @@
 # -App-Subscription-through-Customer-Behaviour--ML-model
+This project aims to create an ML model that studies customer behaviour through data collected like, the time stamp at which users first used the app, or the number of users who used some of the free premium features and went on to subscribe for the premium versions, this model, by analysing all these trends aims to find out which  customers are less likely to subscribe to premium features so that additional discounts or schemes are offered to only those people , hence benefitting the app creators.
+
+The project has been divided into two parts : first  the Exploratory Data Analysis, which helps in removing unnecessary columns, finding out the numeric columns of the data and converting the raw data into more processed and relevant dataset, on which the model will be trained.
+The second step is model building on the new_appdata.csv where we use sklearn library for splitting the dataset into 25% testing and 75% training and we make a model that gives around 76% accuracy, which has also been validated using k-fold cross validation technique.
